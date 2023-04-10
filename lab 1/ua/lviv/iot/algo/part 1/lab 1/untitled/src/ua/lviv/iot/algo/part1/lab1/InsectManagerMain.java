@@ -2,7 +2,7 @@ package ua.lviv.iot.algo.part1.lab2;
 
 public class InsectManagerMain {
     public static void main(String[] args) {
-        InsectManager<Insect> manager = new InsectManager<Insect>() {};
+        InsectManager manager = new InsectManager() {};
 
         manager.addInsect(new Mosquito("Anopheles", 6, true, true, true));
         manager.addInsect(new Hornet("Vespa bicolor", 6, true, true, true));
