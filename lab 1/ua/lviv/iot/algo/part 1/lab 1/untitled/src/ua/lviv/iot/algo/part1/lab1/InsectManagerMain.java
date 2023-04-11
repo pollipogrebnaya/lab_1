@@ -1,9 +1,8 @@
-package ua.lviv.iot.algo.part1.lab2;
+package ua.lviv.iot;
 
 public class InsectManagerMain {
     public static void main(String[] args) {
-        InsectManager manager = new InsectManager() {};
-
+        InsectManager manager = new InsectManager();
         manager.addInsect(new Mosquito("Anopheles", 6, true, true, true));
         manager.addInsect(new Hornet("Vespa bicolor", 6, true, true, true));
         manager.addInsect(new Mosquito("Aedes albopictus", 6, true, true, true));
@@ -20,4 +19,3 @@ public class InsectManagerMain {
         manager.findInsectsThatCanInjectPoison().forEach(System.out::println);
     }
 }
-
