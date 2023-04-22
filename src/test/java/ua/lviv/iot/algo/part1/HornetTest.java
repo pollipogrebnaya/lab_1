@@ -17,12 +17,12 @@ public class HornetTest {
 
     @Test
     void testToString() {
-        assertEquals("Hornet(super=Insect(name=Hornet, numberOfLegs=6, hasWings=true, isDangerous=true), canBite=true)", hornet.toString());
+        assertEquals("Hornet(super=Insect(name=Hornet, numberOfLegs=6, hasWings=true, isDangerous=true), CanRoll=true)", hornet.toString());
     }
 
     @Test
     void testCanInjectPoison() {
-        assertEquals(hornet.isCanBite(), hornet.canInjectPoison());
+        assertEquals(hornet.isCanRoll(), hornet.canInjectPoison());
     }
 
     @Test
