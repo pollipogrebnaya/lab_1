@@ -1,0 +1,12 @@
+name, numberOfLegs, hasWings, isDangerous, canRoll
+Scarabaeus sacer, 6, false, false, true
+Curculionidae, 6, false, false, true
+name, numberOfLegs, hasWings, isDangerous, canRoll
+Vespa bicolor, 6, true, true, true
+Vespa crabro, 6, true, true, true
+name, numberOfLegs, hasWings, isDangerous, canBite
+Anopheles, 6, true, true, true
+Aedes albopictus, 6, true, true, true
+name, numberOfLegs, hasWings, isDangerous, canWeaveWeb
+Black widow, 8, false, true, true
+Sparassidae, 8, false, true, true
