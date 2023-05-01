@@ -1,4 +1,4 @@
-package ua.lviv.iot.algo.part1.lab2;
+package ua.lviv.iot.algo.part1;
 
 import lombok.*;
 @Getter
@@ -8,7 +8,7 @@ import lombok.*;
 public class Spider extends Insect {
     private boolean canWeaveWeb = true;
 
-    public Spider(String name, int numberOfLegs, boolean hasWings, boolean isDangerous, boolean canWeaveWeb) {
+    public Spider(final String name, final int numberOfLegs, final boolean hasWings, final boolean isDangerous, final boolean canWeaveWeb) {
         super(name, numberOfLegs, hasWings, isDangerous);
         this.canWeaveWeb = canWeaveWeb;
     }
@@ -19,8 +19,8 @@ public class Spider extends Insect {
     }
 
     @Override
-    public void surviveOverWinter() {
+    public void surviveOverWinter()
+    {
         System.out.println("Spider hibernate during winter.");
     }
 }
-

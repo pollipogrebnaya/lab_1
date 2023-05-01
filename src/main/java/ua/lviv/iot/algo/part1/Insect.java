@@ -1,4 +1,4 @@
-package ua.lviv.iot.algo.part1.lab2;
+package ua.lviv.iot.algo.part1;
 
 import lombok.*;
 
@@ -8,14 +8,12 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public abstract class Insect {
-    protected String name;
-    protected int numberOfLegs;
-    protected boolean hasWings = false;
-    protected boolean isDangerous = false;
+    private String name;
+    private int numberOfLegs;
+    private boolean hasWings = false;
+    private boolean isDangerous = false;
 
     public abstract boolean canInjectPoison();
 
     public abstract void surviveOverWinter();
 }
-
-

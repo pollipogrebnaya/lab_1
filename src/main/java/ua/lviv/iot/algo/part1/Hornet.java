@@ -1,4 +1,4 @@
-package ua.lviv.iot.algo.part1.lab2;
+package ua.lviv.iot.algo.part1;
 
 import lombok.*;
 @Getter
@@ -6,16 +6,16 @@ import lombok.*;
 @ToString(callSuper = true)
 
 public class Hornet extends Insect {
-    private boolean canBite = true;
+    private boolean canRoll = true;
 
-    public Hornet(String name, int numberOfLegs, boolean hasWings, boolean isDangerous, boolean canBite) {
+    public Hornet(final String name, final int numberOfLegs, final boolean hasWings, final boolean isDangerous, final boolean canRoll) {
         super(name, numberOfLegs, hasWings, isDangerous);
-        this.canBite = canBite;
+        this.canRoll = canRoll;
     }
 
     @Override
     public boolean canInjectPoison() {
-        return canBite;
+        return canRoll;
     }
 
     @Override

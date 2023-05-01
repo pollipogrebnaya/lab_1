@@ -1,4 +1,4 @@
-package ua.lviv.iot.algo.part1.lab2;
+package ua.lviv.iot.algo.part1;
 
 import lombok.*;
 @Getter
@@ -8,7 +8,7 @@ import lombok.*;
 public class Beetle extends Insect {
     private boolean canRoll = true;
 
-    public Beetle(String name, int numberOfLegs, boolean hasWings, boolean isDangerous, boolean canRoll) {
+    public Beetle(final String name, final int numberOfLegs, final boolean hasWings, final boolean isDangerous, final boolean canRoll) {
         super(name, numberOfLegs, hasWings, isDangerous);
         this.canRoll = canRoll;
     }
