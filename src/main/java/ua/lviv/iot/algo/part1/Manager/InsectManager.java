@@ -1,4 +1,6 @@
-package ua.lviv.iot.algo.part1;
+package ua.lviv.iot.algo.part1.Manager;
+
+import ua.lviv.iot.algo.part1.Model.Insect;
 
 import java.util.ArrayList;
 import java.util.List;
